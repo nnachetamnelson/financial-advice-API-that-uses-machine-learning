@@ -23,7 +23,7 @@ print("Mean Absolute Error:", mae)
 
 # Create a function to generate personalized financial advice based on the user's input
 def generate_advice(model, user_data):
-    # Use the trained model to make a prediction on the user's input
+    # Use the trained model to make a prediction on the user's inp
     prediction = model.predict(user_data)
     if prediction > 0:
         return "Based on your input, it appears that you are on track to reach your financial goals."
